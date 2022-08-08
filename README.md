@@ -31,6 +31,14 @@ Every logging framework comes with three elements.
 - **Logger name** : `o.a.c.c.C.[Tomcat].[localhost].[/]`
 - **Log message** : `Initializing Spring DispatcherServlet 'dispatcherServlet'`
 
+#### Output (for console)
+
+To enable colors
+
+```properties
+spring.output.ansi.enabled=always
+```
+
 ## Demo
 
 ## Features
