@@ -1,6 +1,9 @@
-# Name
+# Understanding Loggin in Spring Boot
 
-Overview
+Logging is always important for Applications, for debugging, monitoring and etc.
+
+Spting Boot comes with SLF4J inbuilt, which is an abstraction of logging framework such as log4J, java.util.logging, logback, etc.
+
 
 ## Description
 
