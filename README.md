@@ -2,10 +2,15 @@
 
 Logging is always important for Applications, for debugging, monitoring and etc.
 
-Spting Boot comes with SLF4J inbuilt, which is an abstraction of logging framework such as log4J, java.util.logging, logback, etc.
-
+Spring Boot comes with SLF4J inbuilt, which is an abstraction of logging framework such as log4J, java.util.logging, logback, etc.
 
 ## Description
+
+Every logging framework comes with three elements.
+
+`Logger` : capture the messages
+`Formatter` : formats the messages captured by the logger
+`Handler` : Dispatches the messages by printing them on the console , or storing them in a file , sending an email, etc.
 
 ## Demo
 
