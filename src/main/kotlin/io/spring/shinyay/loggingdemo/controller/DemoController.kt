@@ -11,6 +11,10 @@ class DemoController {
 
     @GetMapping("/hello")
     fun hello(): String {
+        logger.info("Hello from Info")
+        logger.trace("Hi from Trace")
+        logger.error("Hey from Error")
+        logger.warn("Ho from Warning")
         return "Hello Spring Boot"
     }
 }
