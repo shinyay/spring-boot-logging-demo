@@ -12,6 +12,16 @@ Every logging framework comes with three elements.
 `Formatter` : formats the messages captured by the logger
 `Handler` : Dispatches the messages by printing them on the console , or storing them in a file , sending an email, etc.
 
+### Logger
+
+#### Log Levels
+
+`ERROR` — runtime errors
+`DEBUG` — Information about the flow of the system
+`TRACE` — more detailed information about the flow of the system
+`WARNING` — warning for the errors caused due to the usage of deprecated APIs.
+`INFO` — events occurring at the run time
+
 ## Demo
 
 ## Features
