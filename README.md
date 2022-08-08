@@ -16,11 +16,20 @@ Every logging framework comes with three elements.
 
 #### Log Levels
 
-`ERROR` — runtime errors
-`DEBUG` — Information about the flow of the system
-`TRACE` — more detailed information about the flow of the system
-`WARNING` — warning for the errors caused due to the usage of deprecated APIs.
-`INFO` — events occurring at the run time
+- `ERROR` — runtime errors
+- `DEBUG` — Information about the flow of the system
+- `TRACE` — more detailed information about the flow of the system
+- `WARNING` — warning for the errors caused due to the usage of deprecated APIs.
+- `INFO` — events occurring at the run time
+
+#### Log Format
+
+- **Date and Time** : `2022-08-08 15:42:59.875`
+- **Log Level** : `INFO`
+- **Process ID** : `38830`
+- **Thread name** : `[nio-8080-exec-1]`
+- **Logger name** : `o.a.c.c.C.[Tomcat].[localhost].[/]`
+- **Log message** : `Initializing Spring DispatcherServlet 'dispatcherServlet'`
 
 ## Demo
 
