@@ -39,6 +39,17 @@ To enable colors
 spring.output.ansi.enabled=always
 ```
 
+Log pattern
+
+| pattern | description      |
+|---------|------------------|
+| %d      | date             |
+| %level  | log level        |
+| %c      | class path       |
+| %t      | thread executing |
+| %m      | message          |
+| %n      | new line         |
+
 ## Demo
 
 ## Features
