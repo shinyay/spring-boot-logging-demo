@@ -49,6 +49,7 @@ Log pattern
 | %t      | thread executing |
 | %m      | message          |
 | %n      | new line         |
+| %clr    | color            |
 
 ## Demo
 
